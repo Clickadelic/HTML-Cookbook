@@ -40,11 +40,27 @@ button {
 }
 
 #sidebar-left {
-    .logo-circle {
+    background-color: #F7F8F8;
+    .sidebar-header {
         border-radius: 50%;
-        width: 160px;
-        height: 160px;
+        width: 200px;
+        height: 200px;
     }
+}
+
+#offcanvas-close {
+    position: absolute;
+    top: 22px;
+    right: 20px;
+}
+
+.offcanvas-header {
+    margin: auto;
+    padding-top: 2rem;
+}
+
+nav.breadcrumb {
+    border-bottom: 1px solid $gray-400;
 }
 
 .wrap-search {
