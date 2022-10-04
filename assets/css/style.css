@@ -10771,6 +10771,26 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-body {
-  background-color: blanchedalmond;
+.wrap-page {
+  height: 100vh;
+}
+
+.site-header {
+  padding: 3rem;
+}
+
+.menu-bars {
+  display: block;
+}
+.menu-bars .menu-bar {
+  height: 2px;
+  width: 100%;
+  display: block;
+  background-color: aqua;
+  margin-bottom: 4px;
+}
+
+#nav-naked li button {
+  border: 0;
+  background: none;
 }
