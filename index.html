@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Cookbook</title>
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <title>Toby's Diner</title>
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
 </head>
 <body>
 <div class="wrap-page">
@@ -68,10 +68,6 @@
     <header class="site-header shadow-sm">
         <div class="container-md">
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                <!--  <a href="/" class="navbar-brand">
-                    Toby's Diner
-                </a> -->
-               
                 <ul class="nav col-6 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0" id="nav-naked">
                     <li>
                         <button class="nav-link" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar-left" aria-controls="sidebar-left">
@@ -81,13 +77,13 @@
                             Menü
                         </button>
                     </li>
-                    <li><a href="#" class="btn btn-primary">+ Rezept hinzufügen</a></li>
+                    <li><a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">+ Rezept hinzufügen</a></li>
                     <li><a href="#" class="nav-link active">Alle Rezepte</a></li>
                     <li><a href="#" class="nav-link">Kategorien</a></li>
                 </ul>
                 <div class="text-end">
-                    <button type="button" class="btn btn-outline-primary">Registrieren</button>
-                    <button type="button" class="btn btn-primary me-2">Login</button>
+                    <button type="button" class="btn btn-outline-primary sm-hidden">Registrieren</button>
+                    <button type="button" class="btn btn-primary me-2 sm-hidden">Login</button>
                 </div>
             </div>
         </div>
@@ -134,8 +130,9 @@
                     <!-- Dynamic maybe ?? -->
                     <div class="recipe-grid">
                         <div class="grid-item">
-                            <img src="./static/images/small/lots-of-salad.jpg" alt="Lots of salad">
-                            <h3>Salad</h3>
+                            <div class="overlay"></div>
+                            <img src="./static/images/small/beef-with-nuggets.jpg" alt="Lots of salad">
+                            <h3>Beef with Nuggets</h3>
                         </div>
                         <div class="grid-item">
                             <img src="./static/images/small/mozarella-salad.jpg" alt="Lots of salad">
@@ -169,15 +166,33 @@
                 <ul class="nav justify-content-center border-bottom pb-3 mb-3">
                     <li class="nav-item"><a href="/" class="nav-link px-2 text-muted">Start</a></li>
                     <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQ</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Table of ingridients</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Leave a star</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Do the Dishes</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Disclaimer</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Zutaten</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Impressum</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Abwaschen statt Zahlen</a></li>
                 </ul>
                 <p class="text-center text-muted">WBS Kitchen © 2022.</p>
             </div>
         </div>
     </footer>
+</div>
+<!-- Modal window / neues Rezept -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+    <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Rezept hinzufügen</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+
+        
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Okay</button>
+    </div>
+    </div>
+</div>
 </div>
 <script src="assets/js/popper.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
