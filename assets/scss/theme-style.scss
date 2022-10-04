@@ -7,9 +7,13 @@ body {
 }
 
 .site-header {
-    padding: 3rem;
+    padding: 1rem;
+    svg {
+        margin-top: -3px;
+    }
 }
 
+<<<<<<< HEAD
 .menu-bars {
     display: inline-flex;
     .menu-bar {
@@ -22,13 +26,32 @@ body {
     .menu-bar:last-of-type {
         margin-bottom: 0;
     }
+=======
+#sidebar-trigger {
+
+}
+
+button {
+    border: 0;
+    background: none;
+>>>>>>> 9e1732dac4626288e36254aa1e054cd28fe2160c
 }
 
 #nav-naked {
     li {
-        button {
-            border: 0;
-            background: none;
-        }
+        margin: 0 1rem;
     }
+}
+
+#sidebar-left {
+    background: url("../images/Sidebar-background.jpg") top right no-repeat;
+    background-size: cover;
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: white;
+    height: 180px;
+    width: 180px;
+    margin: 2rem auto;
 }
