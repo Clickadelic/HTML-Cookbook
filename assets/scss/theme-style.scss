@@ -7,25 +7,36 @@ body {
 }
 
 .site-header {
-    padding: 3rem;
+    padding: 1rem;
+    svg {
+        margin-top: -3px;
+    }
 }
 
-.menu-bars {
-    display: block;
-    .menu-bar {
-        height: 2px;
-        width: 100%;
-        display: block;
-        background-color: aqua;
-        margin-bottom: 4px;
-    }
+#sidebar-trigger {
+
+}
+
+button {
+    border: 0;
+    background: none;
 }
 
 #nav-naked {
     li {
-        button {
-            border: 0;
-            background: none;
-        }
+        margin: 0 1rem;
     }
+}
+
+#sidebar-left {
+    background: url("../images/Sidebar-background.jpg") top right no-repeat;
+    background-size: cover;
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: white;
+    height: 180px;
+    width: 180px;
+    margin: 2rem auto;
 }
