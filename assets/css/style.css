@@ -10780,14 +10780,17 @@ textarea.form-control-lg {
 }
 
 .menu-bars {
-  display: block;
+  display: inline-flex;
 }
 .menu-bars .menu-bar {
   height: 2px;
+  width: 20px;
   width: 100%;
-  display: block;
-  background-color: aqua;
+  background-color: #6c757d;
   margin-bottom: 4px;
+}
+.menu-bars .menu-bar:last-of-type {
+  margin-bottom: 0;
 }
 
 #nav-naked li button {

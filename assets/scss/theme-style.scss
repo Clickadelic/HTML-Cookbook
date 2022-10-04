@@ -11,13 +11,16 @@ body {
 }
 
 .menu-bars {
-    display: block;
+    display: inline-flex;
     .menu-bar {
         height: 2px;
+        width: 20px;
         width: 100%;
-        display: block;
-        background-color: aqua;
+        background-color: $gray-600;
         margin-bottom: 4px;
+    }
+    .menu-bar:last-of-type {
+        margin-bottom: 0;
     }
 }
 

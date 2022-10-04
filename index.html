@@ -9,15 +9,23 @@
 </head>
 <body>
 <div class="wrap-page">
-    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="sidebar-left" aria-labelledby="sidebar-left-label">
         <div class="offcanvas-header">
             <div class="sidebar-header">
-                <img src="http://placekitten.com/" class="img-fluid" alt="Placekitten" />
+                <img src="#" class="img-fluid" alt="Sidebar Logo" />
             </div>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-            <p>Try scrolling the rest of the page to see this option in action.</p>
+            <nav class="" id="nav-offcanvas">
+                <ul class="menu-offcanvas">
+                    <li><a href="#">Start</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Start</a></li>
+                    <li><a href="#">Start</a></li>
+                    <li><a href="#">Start</a></li>
+                </ul>
+            </nav>
         </div>
     </div>
     <header class="site-header">
@@ -26,9 +34,9 @@
             <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
                 <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
             </a>
-            <ul class="nav col-12 col-lg-auto bg-dark me-lg-auto mb-2 justify-content-center mb-md-0" id="nav-naked">
+            <ul class="nav col-6 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0" id="nav-naked">
                 <li>
-                    <button class="nav-link px-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                    <button class="nav-link px-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar-left" aria-controls="sidebar-left">
                         <span class="menu-bars">
                             <span class="menu-bar bar-top"></span>
                             <span class="menu-bar bar-middle"></span>
@@ -42,12 +50,9 @@
                 <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
                 <li><a href="#" class="nav-link px-2 text-white">About</a></li>
             </ul>
-            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-                <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
-            </form>
             <div class="text-end">
-                <button type="button" class="me-2">Login</button>
-                <button type="button" class="asd">Sign-up</button>
+                <button type="button" class="btn btn-primary">Sign-up</button>
+                <button type="button" class="btn btn-outline-primary me-2">Login</button>
             </div>
             </div>
         </div>
