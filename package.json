@@ -1,0 +1,25 @@
+{
+  "name": "html-cookbook",
+  "version": "0.0.1",
+  "description": "An html cookbook-layout, made with Bootstrap 5.",
+  "main": "index.js",
+  "scripts": {
+    "build-bootstrap": "sass assets/scss/style.scss assets/css/style.css --watch --no-source-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Clickadelic/HTML-Cookbook.git"
+  },
+  "author": "Tobias Hopp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Clickadelic/HTML-Cookbook/issues"
+  },
+  "homepage": "https://github.com/Clickadelic/HTML-Cookbook#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  },
+  "devDependencies": {
+    "sass": "^1.55.0"
+  }
+}
