@@ -40,21 +40,23 @@ button {
 }
 
 #sidebar-left {
-    background: url("../images/Sidebar-background.jpg") top right no-repeat;
-    background-size: cover;
+    .logo-circle {
+        border-radius: 50%;
+        width: 160px;
+        height: 160px;
+    }
 }
 
 .wrap-search {
-    background: url("../../static/images/meat-and-corn.jpg") top center no-repeat;
+    background: $black url("../../static/images/meat-and-corn.jpg") top center no-repeat;
     background-size: cover;
     height: 350px;
     padding-top: 115px;
-}
-
-
-#wrap-recipe-search {
-    
-    
+    .input-group {
+        input[type="text"] {
+            font-weight: bold;
+        }
+    }
 }
 
 .wrap-content {

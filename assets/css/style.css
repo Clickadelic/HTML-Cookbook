@@ -10804,16 +10804,20 @@ button {
   margin: 0 1rem;
 }
 
-#sidebar-left {
-  background: url("../images/Sidebar-background.jpg") top right no-repeat;
-  background-size: cover;
+#sidebar-left .logo-circle {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
 }
 
 .wrap-search {
-  background: url("../../static/images/meat-and-corn.jpg") top center no-repeat;
+  background: #000 url("../../static/images/meat-and-corn.jpg") top center no-repeat;
   background-size: cover;
   height: 350px;
   padding-top: 115px;
+}
+.wrap-search .input-group input[type=text] {
+  font-weight: bold;
 }
 
 .wrap-content {
