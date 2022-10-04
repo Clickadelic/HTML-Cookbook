@@ -1,5 +1,15 @@
+@font-face {
+    font-family: "Oswald";
+    src: url("../fonts/Oswald/Oswald-Regular.ttf"), format("ttf");
+}
+
+.oswald {
+    font-family: "Oswald", sans-serif;
+}
+
+
 body {
-    
+
 }
 
 .wrap-page {
@@ -13,28 +23,14 @@ body {
     }
 }
 
-<<<<<<< HEAD
-.menu-bars {
-    display: inline-flex;
-    .menu-bar {
-        height: 2px;
-        width: 20px;
-        width: 100%;
-        background-color: $gray-600;
-        margin-bottom: 4px;
-    }
-    .menu-bar:last-of-type {
-        margin-bottom: 0;
-    }
-=======
-#sidebar-trigger {
-
+a.navbar-brand {
+    color: $primary;
+    font-weight: bold;
 }
 
 button {
     border: 0;
     background: none;
->>>>>>> 9e1732dac4626288e36254aa1e054cd28fe2160c
 }
 
 #nav-naked {
@@ -48,10 +44,36 @@ button {
     background-size: cover;
 }
 
-.circle {
-    border-radius: 50%;
-    background-color: white;
-    height: 180px;
-    width: 180px;
-    margin: 2rem auto;
+.wrap-search {
+    background: url("../../static/images/meat-and-corn.jpg") top center no-repeat;
+    background-size: cover;
+    height: 350px;
+    padding-top: 115px;
+}
+
+
+#wrap-recipe-search {
+    
+    
+}
+
+.wrap-content {
+    min-height: 50vh;
+}
+
+.recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+}
+
+.grid-item {
+    border-radius: 4px;
+    overflow: hidden;
+    padding: 1px;
+    img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
 }
