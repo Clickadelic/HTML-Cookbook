@@ -10777,6 +10777,39 @@ textarea.form-control-lg {
   height: 100vh;
 }
 
+#nav-offcanvas ul {
+  list-style: none;
+  padding-left: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+#nav-offcanvas ul li {
+  border-bottom: 1px solid #e9ecef;
+}
+#nav-offcanvas ul li a:link, #nav-offcanvas ul li a:visited {
+  display: block;
+  padding: 1.5rem;
+  background-color: transparent;
+  border-radius: 5px;
+}
+#nav-offcanvas ul li a:link svg, #nav-offcanvas ul li a:visited svg {
+  margin-top: -4px;
+}
+#nav-offcanvas ul li a:hover, #nav-offcanvas ul li a:focus {
+  background-color: #146c43;
+  color: #fff;
+}
+
+.ci-line {
+  position: relative;
+  top: -30px;
+  width: 70px;
+  height: 2px;
+  display: block;
+  margin: 2rem auto;
+  background-color: #146c43;
+}
+
 .site-header {
   padding: 1rem;
 }
