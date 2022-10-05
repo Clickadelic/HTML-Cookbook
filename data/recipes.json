@@ -29,7 +29,7 @@
     },
     {
         "id": 3,
-        "title": "Mix of vegetables",
+        "title": "Salatplatte",
         "imagename": "lots-of-salad.jpg",
         "preparationtime": 12,
         "rating": 4.5,
@@ -43,7 +43,7 @@
     },
     {
         "id": 4,
-        "title": "Mozarella Salad",
+        "title": "Mozarella Salat",
         "imagename": "mozarella-salad.jpg",
         "preparationtime": 12,
         "rating": 4.5,
@@ -56,31 +56,43 @@
         ]
     },
     {
-        "id": 3,
-        "title": "Mix of vegetables",
-        "imagename": "mix-of-vegetables.jpg",
+        "id": 5,
+        "title": "Spaghetti Napoli",
+        "imagename": "pasta-tomata.jpg",
         "preparationtime": 12,
-        "rating": 4.5,
-        "description": "Gemüse schneiden und verteilen, mit den restlichen Zutaten dekorieren",
+        "rating": 3.5,
+        "description": "Nudeln in leicht gesalzenem Wasser kochen bis sie al dente sind.",
         "ingredients": [
-            { "ingredient": "Steak", "amount": 500, "unit": "gr" },
+            { "ingredient": "Nudeln", "amount": 500, "unit": "gr" },
             { "ingredient": "Nuggets", "amount": 12, "unit": "pcs" },
             { "ingredient": "Pommes Frites", "amount": 200, "unit": "gr"},
             { "ingredient": "Hollondaise", "amount": 100, "unit": "ml" }
         ]
     },
     {
-        "id": 3,
-        "title": "Mix of vegetables",
-        "imagename": "mix-of-vegetables.jpg",
-        "preparationtime": 12,
+        "id": 6,
+        "title": "Gebeizter Lachs mit Reis",
+        "imagename": "rice-and-fish.jpg",
+        "preparationtime": 25,
         "rating": 4.5,
-        "description": "Gemüse schneiden und verteilen, mit den restlichen Zutaten dekorieren",
+        "description": "Den Lachs mit der Beize bestreichen, dann den Reis dazu geben.",
         "ingredients": [
-            { "ingredient": "Steak", "amount": 500, "unit": "gr" },
-            { "ingredient": "Nuggets", "amount": 12, "unit": "pcs" },
-            { "ingredient": "Pommes Frites", "amount": 200, "unit": "gr"},
-            { "ingredient": "Hollondaise", "amount": 100, "unit": "ml" }
+            { "ingredient": "Lachs", "amount": 200, "unit": "gr" },
+            { "ingredient": "Reis", "amount": 12, "unit": "pcs" },
+            { "ingredient": "Zitrone", "amount": 1, "unit": "pcs"},
+            { "ingredient": "Dill", "amount": 20, "unit": "ml" }
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Steak Salat",
+        "imagename": "steak-salad.jpg",
+        "preparationtime": 14,
+        "rating": 5,
+        "description": "Steak medium braten und mit dem Rosmarin Zweig belegen.",
+        "ingredients": [
+            { "ingredient": "Steak", "amount": 200, "unit": "gr" },
+            { "ingredient": "Salat", "amount": 12, "unit": "grs" }
         ]
     }
 ]
