@@ -1,32 +1,16 @@
-[{
+[
     {
         "id": 1,
-        "title": "Spaghetti",
-        "cookingTime": 10,
-        "description": "add noodles to the water"
-    },
-    {
-        "id": 2,
-        "title": "Pizza",
-        "cookingTime": 3
-        "description": "dough in the ofen"
-    },
-    {
-        "id": 3,
-        "title": "Lasagne",
-        "cookingTime": 14,
-        "description": "Garfields favorite meal"
-    },
-    {
-        "id": 4,
-        "title": "Salad",
-        "cookingTime": 14,
-        "description": "The green new deal"
-    },
-    {
-        "id": 5,
-        "title": "Potatoes",
-        "cookingTime": 9,
-        "description": "yellow and jummy"
+        "name": "Beef with Nuggets",
+        "imgname": "beef-with-nuggets.jpg",
+        "description": "Wasser, Mehl und Salz zu einem Teig verkneten, dann die Tomatensauce darüber und mit Käse bestreuen",
+        "timetoprepare": 6,
+        "ingredients": [
+            {"ingredient": "Wasser", "amount": 100, "unit": "ml"},
+            {"ingredient": "Mehl", "amount": 200, "unit": "gr"},
+            {"ingredient": "Salz", "amount": 30, "unit": "gr"},
+            {"ingredient": "Mehl", "amount": 100, "unit": "gr"},
+            {"ingredient": "Käse", "amount": 200, "unit": "gr"}
+        ]
     }
-}]
+]

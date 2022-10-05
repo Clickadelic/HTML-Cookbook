@@ -10840,17 +10840,18 @@ textarea.form-control-lg {
 .site-header {
   padding: 1rem;
 }
-.site-header button {
+
+#nav-naked li {
+  margin: 0 1rem;
+}
+
+#sidebar-trigger {
   border: 0;
   background: none;
   margin-bottom: 2rem;
 }
-.site-header svg {
+#sidebar-trigger svg {
   margin-top: -3px;
-}
-
-#nav-naked li {
-  margin: 0 1rem;
 }
 
 #sidebar-left {
@@ -10910,7 +10911,7 @@ nav.breadcrumb {
 }
 
 @media (min-width: 768px) {
-  .site-header button {
+  #sidebar-trigger {
     margin-bottom: 0;
   }
   .recipe-grid {
