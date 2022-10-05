@@ -3,6 +3,13 @@
     src: url("../fonts/Oswald/Oswald-Regular.ttf"), format("ttf");
 }
 
+@font-face {
+    font-family: "Oswald";
+    src: local("Helvetica Neue Bold"), local("HelveticaNeue-Bold"),
+        url('../fonts/Oswald/Oswald-Regular.ttf');
+    font-weight: bold;
+}
+
 .oswald {
     font-family: "Oswald", sans-serif;
 }
@@ -115,7 +122,8 @@ nav.breadcrumb {
     min-height: 50vh;
 }
 
-.recipe-grid {
+// Classname of #the-recipe-grid
+.grid-recipes {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;

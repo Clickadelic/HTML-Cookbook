@@ -1,32 +1,86 @@
-[{
+[
     {
         "id": 1,
-        "title": "Spaghetti",
-        "cookingTime": 10,
-        "description": "add noodles to the water"
+        "title": "Steak mit Nuggets",
+        "imagename": "beef-with-nuggets.jpg",
+        "preparationtime": 10,
+        "rating": 5,
+        "description": "Fleisch medium braten, Nuggets fritieren, Pommes nicht vergessen, schmecken lassen",
+        "ingredients": [
+            { "ingredient": "Steak", "amount": 500, "unit": "gr" },
+            { "ingredient": "Nuggets", "amount": 12, "unit": "pcs" },
+            { "ingredient": "Pommes Frites", "amount": 200, "unit": "gr"},
+            { "ingredient": "Hollondaise", "amount": 100, "unit": "ml" }
+        ]
     },
     {
         "id": 2,
-        "title": "Pizza",
-        "cookingTime": 3
-        "description": "dough in the ofen"
+        "title": "Spaghetti Carbonara",
+        "imagename": "carbonara.jpg",
+        "preparationtime": 12,
+        "rating": 5,
+        "description": "Nudeln zirka 9 Minuten in heißen Wasser kochen, bis sie al dente sind.",
+        "ingredients": [
+            { "ingredient": "Steak", "amount": 500, "unit": "gr" },
+            { "ingredient": "Nuggets", "amount": 12, "unit": "pcs" },
+            { "ingredient": "Pommes Frites", "amount": 200, "unit": "gr"},
+            { "ingredient": "Hollondaise", "amount": 100, "unit": "ml" }
+        ]
     },
     {
         "id": 3,
-        "title": "Lasagne",
-        "cookingTime": 14,
-        "description": "Garfields favorite meal"
+        "title": "Mix of vegetables",
+        "imagename": "lots-of-salad.jpg",
+        "preparationtime": 12,
+        "rating": 4.5,
+        "description": "Gemüse schneiden und verteilen, mit den restlichen Zutaten dekorieren",
+        "ingredients": [
+            { "ingredient": "Steak", "amount": 500, "unit": "gr" },
+            { "ingredient": "Nuggets", "amount": 12, "unit": "pcs" },
+            { "ingredient": "Pommes Frites", "amount": 200, "unit": "gr"},
+            { "ingredient": "Hollondaise", "amount": 100, "unit": "ml" }
+        ]
     },
     {
         "id": 4,
-        "title": "Salad",
-        "cookingTime": 14,
-        "description": "The green new deal"
+        "title": "Mozarella Salad",
+        "imagename": "mozarella-salad.jpg",
+        "preparationtime": 12,
+        "rating": 4.5,
+        "description": "Mozarella und Tomaten in Streifen schneiden, etwas Olivenöl darüber gießen und mit Basilikum bestreuen",
+        "ingredients": [
+            { "ingredient": "Steak", "amount": 500, "unit": "gr" },
+            { "ingredient": "Nuggets", "amount": 12, "unit": "pcs" },
+            { "ingredient": "Pommes Frites", "amount": 200, "unit": "gr"},
+            { "ingredient": "Hollondaise", "amount": 100, "unit": "ml" }
+        ]
     },
     {
-        "id": 5,
-        "title": "Potatoes",
-        "cookingTime": 9,
-        "description": "yellow and jummy"
+        "id": 3,
+        "title": "Mix of vegetables",
+        "imagename": "mix-of-vegetables.jpg",
+        "preparationtime": 12,
+        "rating": 4.5,
+        "description": "Gemüse schneiden und verteilen, mit den restlichen Zutaten dekorieren",
+        "ingredients": [
+            { "ingredient": "Steak", "amount": 500, "unit": "gr" },
+            { "ingredient": "Nuggets", "amount": 12, "unit": "pcs" },
+            { "ingredient": "Pommes Frites", "amount": 200, "unit": "gr"},
+            { "ingredient": "Hollondaise", "amount": 100, "unit": "ml" }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Mix of vegetables",
+        "imagename": "mix-of-vegetables.jpg",
+        "preparationtime": 12,
+        "rating": 4.5,
+        "description": "Gemüse schneiden und verteilen, mit den restlichen Zutaten dekorieren",
+        "ingredients": [
+            { "ingredient": "Steak", "amount": 500, "unit": "gr" },
+            { "ingredient": "Nuggets", "amount": 12, "unit": "pcs" },
+            { "ingredient": "Pommes Frites", "amount": 200, "unit": "gr"},
+            { "ingredient": "Hollondaise", "amount": 100, "unit": "ml" }
+        ]
     }
-}]
+]

@@ -121,39 +121,17 @@
         <div class="container-md">
             <div class="row">
                 <div class="col">
-                    <h2 class="my-4">Rezepte</h2>
-                    <hr class="mb-5">
+                    <h2 class="my-4 oswald">Rezepte</h2>
                 </div>
             </div>
             <div class="row">
                 <div class="col" id="main-content">
                     <!-- Dynamic maybe ?? -->
-                    <div class="recipe-grid">
-                        <div class="grid-item">
-                            <div class="overlay"></div>
+                    <div class="recipe-grid" id="the-recipe-grid">
+                        <!-- <div class="grid-item">
                             <img src="./static/images/small/beef-with-nuggets.jpg" alt="Lots of salad">
                             <h3>Beef with Nuggets</h3>
-                        </div>
-                        <div class="grid-item">
-                            <img src="./static/images/small/mozarella-salad.jpg" alt="Lots of salad">
-                            <h3>Mozarella Salad</h3>
-                        </div>
-                        <div class="grid-item">
-                            <img src="./static/images/small/salmon-with-mandarines.jpg" alt="Lots of salad">
-                            <h3>Salmon with Mandarines</h3>
-                        </div>
-                        <div class="grid-item">
-                            <img src="./static/images/small/carbonara.jpg" alt="Carbonara">
-                            <h3>Spaghetti Carbonara</h3>
-                        </div>
-                        <div class="grid-item">
-                            <img src="./static/images/small/steak-salad.jpg" alt="Lots of salad">
-                            <h3>Steak Salad</h3>
-                        </div>
-                        <div class="grid-item">
-                            <img src="./static/images/small/mix-of-vegetables.jpg" alt="Lots of salad">
-                            <h3>Mix of vegetables</h3>
-                        </div>
+                        </div> -->
                     </div>
                     <!-- end main content -->
                 </div>
@@ -177,25 +155,26 @@
 </div>
 <!-- Modal window / neues Rezept -->
 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-<div class="modal-dialog">
-    <div class="modal-content">
-    <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">Rezept hinzufügen</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-    </div>
-    <div class="modal-body">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">Rezept hinzufügen</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
 
-        
+            
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Okay</button>
+        </div>
+        </div>
     </div>
-    <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Okay</button>
-    </div>
-    </div>
-</div>
 </div>
 <script src="assets/js/popper.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/actions.js"></script>
+<script src="assets/js/data.js" type="module"></script>
 </body>
 </html>
