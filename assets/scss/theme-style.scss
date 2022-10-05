@@ -60,19 +60,20 @@
 // site header
 .site-header {
     padding: 1rem;
-    button {
-        border: 0;
-        background: none;
-        margin-bottom: 2rem;
-    }
-    svg {
-        margin-top: -3px;
-    }
 }
 
 #nav-naked {
     li {
         margin: 0 1rem;
+    }
+}
+
+#sidebar-trigger {
+    border: 0;
+    background: none;
+    margin-bottom: 2rem;
+    svg {
+        margin-top: -3px;
     }
 }
 
@@ -147,10 +148,8 @@ nav.breadcrumb {
 
 // Tablets and small Laptops
 @include media-breakpoint-up(md) {
-    .site-header {
-        button {
-            margin-bottom: 0;
-        }
+    #sidebar-trigger {
+        margin-bottom: 0;
     }
     .recipe-grid {
         grid-template-columns: repeat(5, 1fr);
