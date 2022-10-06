@@ -71,16 +71,16 @@
     },
     {
         "id": 6,
-        "title": "Gebeizter Lachs mit Reis",
+        "title": "Saté Ajam",
         "imagename": "rice-and-fish.jpg",
         "preparationtime": 25,
         "rating": 4.5,
-        "description": "Den Lachs mit der Beize bestreichen, dann den Reis dazu geben.",
+        "description": "Das Fleisch anbraten, die Erdnüsse zermahlen und als Creme mit in den Sud geben. Danach den Reis dazu servieren.",
         "ingredients": [
             { "ingredient": "Lachs", "amount": 200, "unit": "gr" },
             { "ingredient": "Reis", "amount": 12, "unit": "pcs" },
             { "ingredient": "Zitrone", "amount": 1, "unit": "pcs"},
-            { "ingredient": "Dill", "amount": 20, "unit": "ml" }
+            { "ingredient": "Erdnüsse", "amount": 200, "unit": "gr" }
         ]
     },
     {

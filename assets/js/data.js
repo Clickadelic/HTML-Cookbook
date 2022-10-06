@@ -1,4 +1,4 @@
-import data from '../../data/recipes.json' assert {type: 'json'};
+import data from '../../data/recipes.json' assert { type: 'json' };
 
 function renderData(){
     let allCards = '';

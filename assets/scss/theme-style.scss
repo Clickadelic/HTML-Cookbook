@@ -65,6 +65,12 @@
 #nav-naked {
     li {
         margin: 0 1rem;
+        a, button {
+            svg {
+                margin-top: -3px;
+                width: 16px;
+            }
+        }
     }
 }
 

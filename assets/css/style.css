@@ -10796,6 +10796,11 @@ textarea.form-control-lg {
   font-family: "Oswald";
   src: url("../fonts/Oswald/Oswald-Regular.ttf"), format("ttf");
 }
+@font-face {
+  font-family: "Oswald";
+  src: local("Helvetica Neue Bold"), local("HelveticaNeue-Bold"), url("../fonts/Oswald/Oswald-Regular.ttf");
+  font-weight: bold;
+}
 .oswald {
   font-family: "Oswald", sans-serif;
 }
@@ -10843,6 +10848,10 @@ textarea.form-control-lg {
 
 #nav-naked li {
   margin: 0 1rem;
+}
+#nav-naked li a svg, #nav-naked li button svg {
+  margin-top: -3px;
+  width: 16px;
 }
 
 #sidebar-trigger {
@@ -10893,7 +10902,7 @@ nav.breadcrumb {
   min-height: 50vh;
 }
 
-.recipe-grid {
+.grid-recipes {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
