@@ -10794,11 +10794,11 @@ textarea.form-control-lg {
 }
 @font-face {
   font-family: "Oswald";
-  src: url("../fonts/Oswald/Oswald-Regular.ttf"), format("ttf");
+  src: url("../fonts/Oswald/Oswald-Regular.ttf") format("embedded-opentype"), url("../fonts/Oswald/Oswald-Regular.ttf") format("woff2"), url("../fonts/Oswald/Oswald-Regular.ttf") format("woff"), url("../fonts/Oswald/Oswald-Regular.ttf") format("truetype"), url("../fonts/Oswald/Oswald-Regular.ttf") format("svg"); /* Legacy iOS */
 }
 @font-face {
-  font-family: "Oswald";
-  src: local("Helvetica Neue Bold"), local("HelveticaNeue-Bold"), url("../fonts/Oswald/Oswald-Regular.ttf");
+  font-family: "Oswald Bold";
+  src: local("Helvetica Neue Bold"), local("HelveticaNeue-Bold"), url("../fonts/Oswald/Oswald-bold.ttf");
   font-weight: bold;
 }
 .oswald {
@@ -10809,6 +10809,22 @@ textarea.form-control-lg {
   height: 100vh;
 }
 
+#nav-offcanvas .offcanvas-nav-box {
+  border-radius: 10px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+#nav-offcanvas .offcanvas-nav-box h3, #nav-offcanvas .offcanvas-nav-box .h3 {
+  font-family: "Oswald";
+  font-size: 20px;
+  margin-left: 20px;
+  color: #343a40;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+#nav-offcanvas .offcanvas-nav-box:first-of-type {
+  margin-bottom: 2rem;
+}
 #nav-offcanvas ul {
   list-style: none;
   padding-left: 0;
@@ -10820,7 +10836,7 @@ textarea.form-control-lg {
 }
 #nav-offcanvas ul li a:link, #nav-offcanvas ul li a:visited {
   display: block;
-  padding: 1.5rem;
+  padding: 0.75rem;
   background-color: transparent;
   border-radius: 5px;
 }
@@ -10830,6 +10846,19 @@ textarea.form-control-lg {
 #nav-offcanvas ul li a:hover, #nav-offcanvas ul li a:focus {
   background-color: #198754;
   color: #fff;
+}
+#nav-offcanvas ul li:last-child {
+  border-bottom: 0;
+}
+
+a#offcanvas-brand:link img,
+a#offcanvas-brand:visited img {
+  transform: scale(1);
+}
+
+a#offcanvas-brand:hover img,
+a#offcanvas-brand:focus img {
+  transform: scale(1.025);
 }
 
 .ci-line {
@@ -10852,6 +10881,11 @@ textarea.form-control-lg {
 #nav-naked li a svg, #nav-naked li button svg {
   margin-top: -3px;
   width: 16px;
+}
+
+.right-header-menu button svg {
+  margin-top: -3px;
+  margin-right: 8px;
 }
 
 #sidebar-trigger {
@@ -10888,11 +10922,13 @@ nav.breadcrumb {
 }
 
 .wrap-search {
-  background: url("../../static/images/meat-and-corn.jpg") top center no-repeat;
+  background: url("../../static/images/search-bgs/meat-and-corn.jpg") top center no-repeat;
   background-size: cover;
   box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.8);
   height: 350px;
-  padding-top: 115px;
+}
+.wrap-search .inner-recipe-search {
+  display: flex;
 }
 .wrap-search .input-group input[type=text] {
   font-weight: bold;
