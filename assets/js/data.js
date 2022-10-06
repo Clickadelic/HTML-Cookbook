@@ -7,7 +7,7 @@ function renderData(){
         let recipeCard = '<div class="grid-item">';
         recipeCard += '<div class="overlay"><span>'+recipe.rating+'</span></div>';
         recipeCard += '<img src="./static/images/small/'+recipe.imagename+'" class="img-recipe" alt="'+recipe.title+'" />';
-        recipeCard += '<h3>'+recipe.title+'</h3>';
+        recipeCard += '<h3 class="oswald">'+recipe.title+'</h3>';
         recipeCard += '</div>';
         allCards += recipeCard;
     });

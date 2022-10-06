@@ -10955,6 +10955,37 @@ nav.breadcrumb {
   height: auto;
 }
 
+#staticBackdrop .modal-content {
+  background-color: #F7F8F8;
+}
+
+.modal-drag-and-drop .dropzone {
+  position: relative;
+  border-radius: 10px;
+  border: 3px dashed #ced4da;
+  height: 120px;
+  width: 100%;
+  margin-top: 2rem;
+  transition: border 0.25s ease-in;
+}
+.modal-drag-and-drop .dropzone:hover {
+  border-color: #198754;
+  cursor: move;
+}
+.modal-drag-and-drop .dropzone:before {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 44px;
+  content: "Vorschaubild hochladen";
+  color: #6c757d;
+}
+
+#floatingDescription {
+  min-height: 200px;
+}
+
 @media (min-width: 768px) {
   #sidebar-trigger {
     margin-bottom: 0;
