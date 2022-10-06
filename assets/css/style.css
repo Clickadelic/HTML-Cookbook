@@ -10927,11 +10927,15 @@ nav.breadcrumb {
   box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.8);
   height: 350px;
 }
-.wrap-search .inner-recipe-search {
-  display: flex;
-}
 .wrap-search .input-group input[type=text] {
   font-weight: bold;
+}
+
+#recipe-searchbox {
+  margin-top: 8rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .wrap-content {
