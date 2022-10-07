@@ -10942,13 +10942,14 @@ nav.breadcrumb {
   min-height: 50vh;
 }
 
-.grid-recipes {
+#the-recipe-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
 }
 
 .grid-item {
+  position: relative;
   border-radius: 4px;
   overflow: hidden;
   padding: 1px;
@@ -10990,11 +10991,15 @@ nav.breadcrumb {
   min-height: 200px;
 }
 
+#recipe-tab-pane {
+  min-height: 300px;
+}
+
 @media (min-width: 768px) {
   #sidebar-trigger {
     margin-bottom: 0;
   }
-  .recipe-grid {
+  #the-recipe-grid {
     grid-template-columns: repeat(5, 1fr);
   }
 }
