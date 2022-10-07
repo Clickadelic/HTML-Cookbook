@@ -207,14 +207,14 @@ nav.breadcrumb {
         color: $gray-800;
         font-size: 22px;
         text-shadow: 1px 1px 1px $gray-200;
-        background-color: white;
+        background-color: rgba(255, 255, 255, .8);
     }
     .item-body {
         position: absolute;
         bottom: -20px;
         height: 0;
         background-color: rgba(255, 255, 255, 1);
-        transition: all .25s ease-out;
+        transition: all .15s ease-out;
         padding: .5rem 1rem;
         p {
             margin-bottom: 0;
@@ -283,6 +283,7 @@ nav.breadcrumb {
     }
     #the-recipe-grid {
         grid-template-columns: repeat(5, 1fr);
+        gap:90px;
     }
 }
 

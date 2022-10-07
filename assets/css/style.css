@@ -10968,14 +10968,14 @@ nav.breadcrumb {
   color: #343a40;
   font-size: 22px;
   text-shadow: 1px 1px 1px #e9ecef;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 .grid-item .item-body {
   position: absolute;
   bottom: -20px;
   height: 0;
   background-color: rgb(255, 255, 255);
-  transition: all 0.25s ease-out;
+  transition: all 0.15s ease-out;
   padding: 0.5rem 1rem;
 }
 .grid-item .item-body p {
@@ -11030,6 +11030,7 @@ nav.breadcrumb {
   }
   #the-recipe-grid {
     grid-template-columns: repeat(5, 1fr);
+    gap: 90px;
   }
 }
 .custom-class {
