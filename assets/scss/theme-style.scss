@@ -190,18 +190,43 @@ nav.breadcrumb {
 
 .grid-item {
     position: relative;
-    border-radius: 4px;
+    border-radius: 6px;
     overflow: hidden;
-    padding: 1px;
+    border: 1px solid $gray-400;
     img {
         width: 100%;
-        max-width: 300px;
-        height: auto;
+        height: auto
+    }
+    h3 {
+        position: absolute;
+        top: 0;
+        padding: 10px;
+        display: block;
+        width: 100%;
+        font-weight: 300;
+        color: $gray-800;
+        font-size: 22px;
+        text-shadow: 1px 1px 1px $gray-200;
+        background-color: white;
+    }
+    .item-body {
+        position: absolute;
+        bottom: -20px;
+        height: 0;
+        background-color: rgba(255, 255, 255, 1);
+        transition: all .25s ease-out;
+        padding: .5rem 1rem;
+        p {
+            margin-bottom: 0;
+        }
     }
 }
 
-.card-overlay {
-
+.grid-item:hover {
+    cursor: pointer;
+    .item-body {
+        height: 200px;
+    }
 }
 
 #staticBackdrop {

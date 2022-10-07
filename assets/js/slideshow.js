@@ -4,5 +4,3 @@ const slides = [
     'meat-and-corn.jpg',
     'strawberrys-and-cookies.jpg'
 ]
-
-const slider = document.getElementById('')

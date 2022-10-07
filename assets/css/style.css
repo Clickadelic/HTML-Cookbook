@@ -10950,14 +10950,43 @@ nav.breadcrumb {
 
 .grid-item {
   position: relative;
-  border-radius: 4px;
+  border-radius: 6px;
   overflow: hidden;
-  padding: 1px;
+  border: 1px solid #ced4da;
 }
 .grid-item img {
   width: 100%;
-  max-width: 300px;
   height: auto;
+}
+.grid-item h3, .grid-item .h3 {
+  position: absolute;
+  top: 0;
+  padding: 10px;
+  display: block;
+  width: 100%;
+  font-weight: 300;
+  color: #343a40;
+  font-size: 22px;
+  text-shadow: 1px 1px 1px #e9ecef;
+  background-color: white;
+}
+.grid-item .item-body {
+  position: absolute;
+  bottom: -20px;
+  height: 0;
+  background-color: rgb(255, 255, 255);
+  transition: all 0.25s ease-out;
+  padding: 0.5rem 1rem;
+}
+.grid-item .item-body p {
+  margin-bottom: 0;
+}
+
+.grid-item:hover {
+  cursor: pointer;
+}
+.grid-item:hover .item-body {
+  height: 200px;
 }
 
 #staticBackdrop .modal-content {
