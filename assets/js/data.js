@@ -17,7 +17,7 @@ function renderData(){
             recipeCard += '</div>';
         recipeCard += '</div>';
         // recipeCard += '<span class="item-preparation-time">'+recipe.preparationtime+' </span>';
-        recipeCard += '<p>'+recipe.description+'</p>';
+        recipeCard += '';
         recipeCard += '</div>';
         recipeCard += '</div>';
         allCards += recipeCard;

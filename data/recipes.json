@@ -5,6 +5,7 @@
         "imagename": "beef-with-nuggets.jpg",
         "preparationtime": 10,
         "rating": 5,
+        "author": "Tobias",
         "description": "Fleisch medium braten, Nuggets fritieren, Pommes nicht vergessen, schmecken lassen",
         "ingredients": [
             { "ingredient": "Steak", "amount": 500, "unit": "gr" },
@@ -19,6 +20,7 @@
         "imagename": "carbonara.jpg",
         "preparationtime": 12,
         "rating": 5,
+        "author": "Tobias",
         "description": "Nudeln zirka 9 Minuten in heißen Wasser kochen, bis sie al dente sind.",
         "ingredients": [
             { "ingredient": "Steak", "amount": 500, "unit": "gr" },
@@ -33,6 +35,7 @@
         "imagename": "lots-of-salad.jpg",
         "preparationtime": 12,
         "rating": 4.5,
+        "author": "Tobias",
         "description": "Gemüse schneiden und verteilen, mit den restlichen Zutaten dekorieren",
         "ingredients": [
             { "ingredient": "Steak", "amount": 500, "unit": "gr" },
@@ -47,6 +50,7 @@
         "imagename": "mozarella-salad.jpg",
         "preparationtime": 12,
         "rating": 4.5,
+        "author": "Tobias",
         "description": "Mozarella und Tomaten in Streifen schneiden, etwas Olivenöl darüber gießen und mit Basilikum bestreuen",
         "ingredients": [
             { "ingredient": "Steak", "amount": 500, "unit": "gr" },
@@ -61,6 +65,7 @@
         "imagename": "pasta-tomata.jpg",
         "preparationtime": 12,
         "rating": 3.5,
+        "author": "Tobias",
         "description": "Nudeln in leicht gesalzenem Wasser kochen bis sie al dente sind.",
         "ingredients": [
             { "ingredient": "Nudeln", "amount": 500, "unit": "gr" },
@@ -75,6 +80,7 @@
         "imagename": "rice-and-fish.jpg",
         "preparationtime": 25,
         "rating": 4.5,
+        "author": "Tobias",
         "description": "Das Fleisch anbraten, die Erdnüsse zermahlen und als Creme mit in den Sud geben. Danach den Reis dazu servieren.",
         "ingredients": [
             { "ingredient": "Lachs", "amount": 200, "unit": "gr" },
@@ -89,6 +95,7 @@
         "imagename": "steak-salad.jpg",
         "preparationtime": 14,
         "rating": 5,
+        "author": "Tobias",
         "description": "Steak medium braten und mit dem Rosmarin Zweig belegen.",
         "ingredients": [
             { "ingredient": "Steak", "amount": 200, "unit": "gr" },
